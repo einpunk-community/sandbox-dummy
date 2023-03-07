@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(121, 85, 202) 0%, rgb(246, 108, 184) 35%, rgb(151, 190, 164) 100%);
+    font-family: Tahoma, san-sarif;
+}
+
+.container {
+    width: 80vw;
+    background: #fff;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 15px;
+}
+
+.container h3,
+h5 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container button {
+    border: none;
+    background: #5546FE;
+    padding: 15px 30px 15px 30px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 33vw;
+}
+
+.container a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container button:hover {
+    cursor: pointer;
+}
+
+.container textarea {
+    margin-top: 50px;
+    margin-left: 17vw;
+    width: 60%;
+}
+
+.container hr {
+    margin-top: 15px;
+    border: 1px solid #d2cbcb;
+}
+
+.container img {
+    margin-top: 15px;
+    width: 200px;
+    margin-left: 33vw;
+}
+
+@media (max-width: 500px) {
+    .container button {
+        margin-left: 20vw;
+    }
+    .container textarea {
+        margin-left: 17vw;
+    }
+    .container img {
+        margin-left: 19vw;
+    }
+}
