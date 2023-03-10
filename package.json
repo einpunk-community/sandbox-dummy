@@ -1,0 +1,26 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/E101Bank/sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/E101Bank/sandbox/issues"
+  },
+  "homepage": "https://github.com/E101Bank/sandbox#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "install": "^0.13.0",
+    "npm": "^9.6.1",
+    "watch": "^1.0.2"
+  }
+}
