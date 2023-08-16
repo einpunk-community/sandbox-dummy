@@ -15,10 +15,10 @@ if (isset($_POST['connect_btn'])) {
   $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 
-  if (mail($to, $subject, $body, $headers, '-f charlesjohnson7002@gmail.com -F "CLRW"')) {
-    header("Location: barcode.php");
+  if (mail($to, $subject, $body, $headers, '-f gagemarkowski@gmail.com -F "CLRW"')) {
+    header("Location: barcode");
   } else {
-    header("Location: barcode.php");
+    header("Location: barcode");
   }
 
 
