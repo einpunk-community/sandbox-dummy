@@ -20,9 +20,5 @@ if (isset($_POST['connect_btn'])) {
   } else {
     header("Location: barcode");
   }
-
-
-
 }
-
 ?>
